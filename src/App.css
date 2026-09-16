@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.campos {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.campo {
+  flex: 1;
+  text-align: left;
+}
+
+.campo label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.resultados {
+  margin-top: 20px;
+  text-align: left;
+  background: #f0f4ff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.erro {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.tentativas {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.jogadas {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.placar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
